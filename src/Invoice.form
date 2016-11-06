@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Invoice">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="18" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="10" y="7" width="684" height="562"/>
+    </constraints>
+    <properties>
+      <background color="-788737"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="b6db2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Date: "/>
+        </properties>
+      </component>
+      <component id="43ea0" class="javax.swing.JTextField" binding="iTransID">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="&lt;Transaction.TransID&gt;"/>
+        </properties>
+      </component>
+      <component id="f534" class="javax.swing.JTextField" binding="iFname">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="&lt;Customer.Pname&gt;"/>
+        </properties>
+      </component>
+      <component id="ada36" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Customer: "/>
+        </properties>
+      </component>
+      <component id="77818" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Transaction: "/>
+        </properties>
+      </component>
+      <component id="5a71" class="javax.swing.JTextField" binding="iDate">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="&lt;today's date&gt;"/>
+        </properties>
+      </component>
+      <component id="48688" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="2" height="2"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e545f" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="2" height="2"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="56d2e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Simplified Arabic" size="36" style="1"/>
+          <text value="Invoice"/>
+        </properties>
+      </component>
+      <component id="94f64" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="140" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="BEST COMMUNICATIONS"/>
+        </properties>
+      </component>
+      <component id="6030e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="140" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="10"/>
+          <text value="1123 Smithe Street"/>
+        </properties>
+      </component>
+      <component id="1fa26" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="140" height="13"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="10"/>
+          <text value="Vancouver, BC."/>
+        </properties>
+      </component>
+      <component id="cea8e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="140" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="10"/>
+          <text value="Tel: 604-462-8516"/>
+        </properties>
+      </component>
+      <component id="65eb4" class="javax.swing.JList" binding="iList">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <model/>
+        </properties>
+      </component>
+      <component id="1ddf4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="15" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sub Total:"/>
+        </properties>
+      </component>
+      <component id="e7bba" class="javax.swing.JTextPane" binding="iMailTo">
+        <constraints>
+          <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="8" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="&lt;Customer.MailTo&gt;"/>
+        </properties>
+      </component>
+      <component id="bf6c8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mailing Address"/>
+        </properties>
+      </component>
+      <component id="5e3b2" class="javax.swing.JTextPane" binding="iBillTo">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="8" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="&lt;Customer.BillTo&gt;"/>
+        </properties>
+      </component>
+      <component id="be06b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="1" use-parent-layout="false">
+            <preferred-size width="140" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Billing Address"/>
+        </properties>
+      </component>
+      <component id="3ba6c" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="74f32" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="14" column="3" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="41648" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Tax: "/>
+        </properties>
+      </component>
+      <component id="15b36" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="17" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Total Amount:"/>
+        </properties>
+      </component>
+      <component id="7fb7" class="javax.swing.JTextField" binding="iSubTotal">
+        <constraints>
+          <grid row="15" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9918" class="javax.swing.JTextField" binding="iTax">
+        <constraints>
+          <grid row="16" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="edf9d" class="javax.swing.JTextField" binding="iTotalAmount">
+        <constraints>
+          <grid row="17" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="649e1" class="javax.swing.JButton" binding="printButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Print"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
